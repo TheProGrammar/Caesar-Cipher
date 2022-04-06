@@ -12,7 +12,7 @@ print(game_logo)
 type_choice = input("Do you want to encrypt or decrypt a message? Type 'e' or 'd': ")
 
 user_word = input("Enter a word: ")
-password_shift = int(input("Enter a shift amount: "))
+password_shift = int(input("Enter a shift amount (1-5): "))
 
 encrypted_word = ""
 
